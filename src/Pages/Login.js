@@ -13,9 +13,9 @@ function Login() {
     });
   };
 
-  useEffect(() => {
-    setEmail(localStorage.getItem("email"));
-  }, []);
+  //   useEffect(() => {
+  //     setEmail(localStorage.getItem("email"));
+  //   }, []);
 
   let stl = {
     size: "w-full h-[100vh] text-txt flex flex-col items-center justify-center text-center",
